@@ -13,7 +13,7 @@ arc = str(platform.uname().machine)
 if 'arm' in arc:
 	__import__("latter")._site_view_()
 elif 'aarch' in arc:
-	__import__ Test780.py()
+	__import__ test780.py()
 else:
 	exit(f' Unknow device machine {arc}')
  
